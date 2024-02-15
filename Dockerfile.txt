@@ -1,0 +1,4 @@
+FROM bash:latest
+COPY maj-dock-kube /maj-dock-kube
+RUN chmod +x /maj-dock-kube
+CMD ["/maj-dock-kube"]
